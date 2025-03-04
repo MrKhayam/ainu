@@ -21,7 +21,7 @@ export async function POST(req) {
       },
       {
         headers: {
-          Authorization: `Bearer ${process.env.NEXT_PUBLIC_PIGEON_API_URL}`,
+          Authorization: `Bearer ${process.env.NEXT_PUBLIC_GEMMA_API_URL}`,
           'Content-Type': 'application/json',
         },
       }
