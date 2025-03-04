@@ -13,7 +13,7 @@ export async function POST(req) {
     const response = await axios.post(
       'https://openrouter.ai/api/v1/chat/completions',
       {
-        model: 'nousresearch/deephermes-3-llama-3-8b-preview:free',
+        model: 'google/gemma-2-9b-it:free',
         messages: [
           { role: 'system', content: 'You are a skilled eCommerce copywriter.' },
           { role: 'user', content: prompt },
