@@ -34,10 +34,10 @@ const Page = () => {
 
         // Prewritten prompt
         const prompt = `
-      Write a compelling 100-word product description for an eCommerce store. 
+      Write a compelling more than 300-word product description for an eCommerce store. 
       The product is "${productName}", in the category "${category}", 
       with features: "${features}", aimed at "${targetAudience}". 
-      Make it persuasive, SEO-friendly, and highlight benefits in a creative way.
+      Make it persuasive, SEO-friendly, and highlight benefits in a creative way. Make it emotionally driven. Sell the experiences and emotions instead of the product. 
     `;
 
         try {
